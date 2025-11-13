@@ -9,6 +9,7 @@ app = Flask(__name__)
 def hello():
     return 'Hello, DevOps World!'
 
+
 @app.route('/motivator')
 def motivator():
     quotes = [
